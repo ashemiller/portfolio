@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap');
+
+@font-face {
+  font-family: Smoothie;
+  src: url(fonts/smoothie-font.ttf);
+}
+
+/* TYPOGRAPHY */
+
+h2, h3, h4, h5 {
+	font-family: 'Josefin Sans', arial, sans-serif;
+}
+
+h1 {
+	font-family: 'Smoothie';
+	font-size: 76px;
+	text-align: center;
+	color: #47413e;
+}
+
+p, li, a {
+	font-family: 'Josefin Sans', arial, sans-serif;
+	font-weight: 300;
+}
+
+.heavy {
+	font-weight: 600;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* HEADER STYLES */
+
+header.site-header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.site-header {
+		background-color: #e3e1e0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+
+.main-navigation ul li a {
+	color: #47413e;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+.site-header h1 {
+	font-size: 48px;
+}
+
+.main-navigation ul {
+	display: flex;
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.main-navigation ul li {
+	margin-right: 14px;
+	margin-left: 14px;
+}
+
+/* TITLE SECTION */
+
+.title {
+	min-height:  400px;
+	background-color: #fffdf6;
+	padding: 50px 100px 50px 100px;
+	color: #47413e;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title h2 {
+	font-size: 84px;
+	font-weight: 400;
+	font-family: 'Smoothie';
+}
+
+.title ul {
+	display: flex;
+	list-style: none;
+	margin-bottom: 0;
+	font-size: 24px;
+	padding-left: 0;
+}
+
+.title ul li {
+	margin-right: 14px;
+	margin-left: 14px;
+}
+
+
+/* GREEN STYLE */
+
+.green-style img {
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
+
+.green-style h1 {
+	font-family: 'Smoothie';
+	font-size: 64px;
+	text-align: left;
+	color: #47413e;
+	margin-bottom: 20px;
+	margin-top: 28px;
+}
+
+.green-style p {
+	font-size: 20px;
+	margin-bottom: 28px;
+}
+
+.green-style {
+	background-color: #9eaea3;
+	background-size: 100%;
+	padding: 50px 100px 50px 100px;
+}
+
+.project h3 {
+	text-align: left;
+}
+
+.row {
+	margin-bottom: 32px;
+}
+
+/* BEIGE STYLE */
+
+.beige-style img {
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
+
+.beige-style h1 {
+	font-family: 'Smoothie';
+	font-size: 64px;
+	text-align: left;
+	color: #47413e;
+	margin-bottom: 20px;
+	margin-top: 28px;
+}
+
+.beige-style {
+	background-color: #e3e1e0;
+	background-size: 100%;
+	padding: 50px 100px 50px 100px;
+}
+
+.beige-style p {
+	text-align: left;
+	font-size: 20px;
+}
+
+.beige-style h3 {
+	text-align: left;
+	color: #47413e;
+}
+
+.row {
+	margin-bottom: 32px;
+}
+
+/* GREEN STYLE 2 */
+
+.green-style-2 img {
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+.green-style-2 h1 {
+	font-family: 'Smoothie';
+	font-size: 64px;
+	text-align: left;
+	color: #47413e;
+	margin-bottom: 20px;
+	margin-top: 28px;
+}
+
+.green-style-2 p {
+	font-size: 20px;
+	margin-bottom: 28px;
+}
+
+.green-style-2 {
+	background-color: #9eaea3;
+	background-size: 100%;
+	padding: 50px 100px 50px 100px;
+}
+
+
+/* BTN STYLES */
+
+.btn-primary {
+	background: #414a44;
+	border-radius: 0;
+	border: none;
+	width: 200px;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-style: 'Josephin Sans';
+	font-size: 22px;
+	font-weight: 300;
+	color: #fffdf6;
+}
+
+.btn-secondary {
+	background: #45314b;
+	border-radius: 0;
+	border: none;
+	width: 350px;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-style: 'Josephin Sans';
+	font-size: 18px !important;
+	font-weight: 300 !important;
+	color: #fffdf6 !important;
+}
+
+.btn:hover {
+	background: #47413e;
+}
+
+/* RESUME SECTION STYLES */
+
+.resume-section {
+	background-color: #9eaea3;
+	background-size: 100%;
+	padding: 50px 100px 50px 100px;
+}
+
+
+/* FOOTER STYLES */
+
+.site-footer {
+	background-color: #45314b;
+	color: #fffdf6;
+	padding: 32px;
+	min-height: 150px;
+}
+
+.site-footer h3 {
+	font-size: 18px;
+}
+
+.site-footer p {
+	font-size: 14px;
+}
+
+.social-icons {
+	display: flex;
+}
+
+.social-icons img {
+	width: 28px;
+	height: auto;
+	margin-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
